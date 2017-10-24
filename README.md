@@ -15,13 +15,13 @@
 
 ## Configure Jupyter Notebook
 
-1. Run `ssh -i path/to/key.pem ubuntu@ec2-52-65-83-23.ap-southeast-2.compute.amazonaws.com`
+1. `ssh -i path/to/key.pem ubuntu@ec2-52-65-83-23.ap-southeast-2.compute.amazonaws.com`
 
 2. Run `sudo apt update` if needed
 
-3. Run `wget https://s3-ap-southeast-2.amazonaws.com/jiaxiaws/scripts/setting_notebook_with_ssl.sh` to get the script
+3. `wget https://s3-ap-southeast-2.amazonaws.com/jiaxiaws/scripts/setting_notebook_with_ssl.sh` to get the script
 
-4. Run `bash setting_notebook_with_ssl.sh` This will complete the configuration, host a notebook server at port `19999`, and set a password `pass1234`
+4. Run `bash setting_notebook_with_ssl.sh`. This completes the configuration, host a notebook server at port `19999`, and set a password `pass1234`
 
 5. a. (In your own laptop) If you are using FoxyProxy, run `ssh -i ~/your/key.pem -N -D 8157 ubuntu@ec2-52-65-83-23.ap-southeast-2.compute.amazonaws.com` Where `8157` is the local port used in FoxyProxy
 
