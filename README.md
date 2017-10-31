@@ -13,7 +13,7 @@
 5. `Review`, Select a Key, and `Launch`
 
 
-## Configure Jupyter Notebook
+## Hosting Jupyter Notebook
 
 1. `ssh -i path/to/key.pem ubuntu@ec2-52-65-83-23.ap-southeast-2.compute.amazonaws.com`
 
@@ -36,7 +36,12 @@
 8. Then proceed to enter password `pass1234` and `Log in`
 
 
-## 
+## Open a notebook
+
+In this case, we are going to use `Python 2` for the excercises. Open a notebook by clicking `New`.
+![](images/open_notebook.png)
+
+## Excercise 1: Sample banking data on MxNet
 
 
 
