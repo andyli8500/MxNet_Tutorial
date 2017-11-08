@@ -29,7 +29,7 @@ Applied on each output of hidden layers.
 
 ## Excercise 1 - Build a simple Neural Network with MxNet
 
-![](images/learning.gif)
+[example](images/learning.gif)
 
 
 
