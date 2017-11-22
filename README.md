@@ -28,8 +28,8 @@ SGD
 
 
 ## Excercise 1 - Build a simple Neural Network with MxNet
-
 ![example](images/learning.gif)
+[code](notebooks/NN-demo.ipynb)
 
 
-## Excercise 2 - 
+
